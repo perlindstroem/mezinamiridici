@@ -52,6 +52,7 @@ export default {
   },
   created() {
     this.$store.dispatch('LOAD_USER');
+    this.asdf();
   },
   methods: {
     signMeOut() {
